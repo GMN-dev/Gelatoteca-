@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Roboto, sans-serif;
+    margin: auto;
+    height: 150vh;
+}
+header{
+    background-image: url(/imgs/bowls.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+    height: 100vh;
+}
+/* container do topo flex */
+.container_topo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+/* barra de navegação */
+#navigation{
+    width: 430px;
+    margin: auto;
+    margin: 0;
+    color: #346c6b;
+    background-color: rgba(255, 255, 255, 0.911);
+    border-radius: 30px;
+}
+#navigation ul{
+    list-style: none;
+    text-align: center;
+}
+#navigation li{
+    padding: 50px;
+    font-weight: 600;
+    font-size: 25px;
+    border-top: 1px solid black;
+}
