@@ -1,15 +1,19 @@
 @media screen and (max-width: 988px){
     .container_topo{
-        display: block;   
+        height: 1s00%;
+        display: block;
+        margin: 20px;
+        
     }
     .container_topo img{
         max-width: 100%;
         display: block;
         margin: auto;
-        margin-top: 30px;
+
     }
     
     #navigation{
+        max-width: 100%;
         display: block;
         margin: auto;
         margin-top: 30px;
